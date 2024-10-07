@@ -11,7 +11,7 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill className='cursor-pointer text-2xl' />
                 </li>
-              <li>
+              <li className='bg-cyan-500 text-white px-4 py-2 rounded-md ml-8'>
                 <a href="#">Resume</a>
                 </li>
             </ul>
