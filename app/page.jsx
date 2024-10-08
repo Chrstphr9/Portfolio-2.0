@@ -22,7 +22,7 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill className='cursor-pointer text-2xl' />
                 </li>
-              <li className='bg-gradient-to-r from-pribg to-tetbg text-white px-4 py-2 rounded-md ml-8'>
+              <li className='bg-gradient-to-r from-pribg to-tetbg text-white px-4 py-2 rounded-md ml-8  border-sectxt shadow-[-7px_7px_0px_#FFD739]'>
                 <a href="#">Resume</a>
                 </li>
             </ul>
@@ -61,7 +61,7 @@ export default function Home() {
             </p>
           </div>
           <div>
-          <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+          <div className="text-center shadow-lg p-10 rounded-xl my-10 border border-sectxt hover:shadow-[-7px_7px_0px_#FFD739] flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
@@ -76,7 +76,7 @@ export default function Home() {
               <p className="text-pribg py-1">Figma</p>
               <p className="text-pribg py-1">Indesign</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-sectxt hover:shadow-[-7px_7px_0px_#FFD739] flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
