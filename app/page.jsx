@@ -14,7 +14,7 @@ export default function Home() {
       <main className="bg-white px-10">
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl font-burtons'>developedByChrstphr</h1>
+            <h1 className='text-pribg text-xl font-burtons'>developedByChrstphr</h1>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill className='cursor-pointer text-2xl' />
@@ -35,8 +35,8 @@ export default function Home() {
           <AiFillLinkedin />
           <AiFillGithub />
           </div>
-          <div className='relative'>
-            <Image src={deved}/>
+          <div className='overflow-hidden relative bg-gradient-to-b from-pribg to-tetbg rounded-full w-80 h-80 mt-20 mx-auto'>
+            <Image src={deved} layout='fill' objectFit='cover'/>
           </div>
         </section>
       </main>
