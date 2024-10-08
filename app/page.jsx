@@ -6,6 +6,9 @@ import {
 } from "react-icons/ai"
 import Image from 'next/image';
 import deved from '../public/dev-ed-wave.png'
+import design from '../public/design.png'
+import code from '../public/code.png'
+import consulting from '../public/consulting.png'
 
 
 export default function Home() {
@@ -37,6 +40,57 @@ export default function Home() {
           </div>
           <div className='overflow-hidden relative bg-gradient-to-b from-pribg to-tetbg rounded-full w-80 h-80 mt-20 mx-auto'>
             <Image src={deved} layout='fill' objectFit='cover'/>
+          </div>
+        </section>
+
+
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Services I Offer</h3>
+            <p className='text-md py-2 leading-8 text-pribg'>
+            Since the beginning of my journey as a freelance designer and
+              developer, I've done remote work for
+              <span className="text-secbg"> agencies </span>
+              consulted for <span className="text-secbg">startups </span>
+              and collaborated with talanted people to create digital products
+              for both business and consumer use.
+            </p>
+            <p className="text-md py-2 leading-8 text-pribg">
+              I offer from a wide range of services, including brand design,
+              programming and teaching.
+            </p>
+          </div>
+          <div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+              <Image src={design} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Beautiful Designs
+              </h3>
+              <p className="py-2">
+                Creating elegant designs suited for your needs following core
+                design theory.
+              </p>
+              <h4 className="py-4 text-pribg">Design Tools I Use</h4>
+              <p className="text-pribg py-1">React</p>
+              <p className="text-pribg py-1">Tailwind CSS</p>
+              <p className="text-pribg py-1">Figma</p>
+              <p className="text-pribg py-1">Indesign</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+              <Image src={code} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2 ">
+                Code your dream project
+              </h3>
+              <p className="py-2">
+                Do you have an idea for your next great website? Let's make it a
+                reality.
+              </p>
+              <h4 className="py-4 text-pribg">Coding Tools I Use</h4>
+              <p className="text-pribg py-1">Vscode</p>
+              <p className="text-pribg py-1">Next.JS</p>
+              <p className="text-pribg py-1">Postman</p>
+              <p className="text-pribg py-1">Firebase</p>
+            </div>
           </div>
         </section>
       </main>
