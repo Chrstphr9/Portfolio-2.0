@@ -1,4 +1,12 @@
 import {BsFillMoonStarsFill} from 'react-icons/bs'
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillGithub,
+} from "react-icons/ai"
+import Image from 'next/image';
+import deved from '../public/dev-ed-wave.png'
+
 
 export default function Home() {
   return (
@@ -16,7 +24,20 @@ export default function Home() {
                 </li>
             </ul>
           </nav>
-          
+          <div className='text-center p-10'>
+            <h2 className='text-5xl py-2 text-pribg font-medium'>Anigbo Somto</h2>
+            <h3 className='text-2xl py-2'>Developer an Designer</h3>
+            <p className='text-md py-5 leading-8 text-pribg'>Freelancer providing services for programming and design content
+            needs. Join me down below and let's get cracking!</p>
+          </div>
+          <div className='text-5xl flex justify-center gap-16 py-3 text-pribg'>
+          <AiFillTwitterCircle />
+          <AiFillLinkedin />
+          <AiFillGithub />
+          </div>
+          <div className='relative'>
+            <Image src={deved}/>
+          </div>
         </section>
       </main>
       
