@@ -16,7 +16,7 @@ module.exports = {
         pribg: '#27045B',
         pritxt: '#FFFFFF',
         secbg: '#6807f9',
-        tetbg: '#9852f9',
+        tetbg:  '#9852f9',
         sectxt: '#FFD739'
       },
     },
