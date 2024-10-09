@@ -30,7 +30,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-pribg font-medium md:text-6xl'>Anigbo Somto</h2>
             <h3 className='text-2xl py-2 md:text-3xl text-pribg'>Not Your Regular Developer</h3>
-            <p className='text-md py-5 leading-8 text-pribg'>Freelancer providing services for programming and design content
+            <p className='text-md py-5 leading-8 text-pribg md:text-xl max-w-xl mx-auto'>Freelancer providing services for programming and design content
             needs. Join me down below and let's get cracking!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-pribg'>
@@ -38,7 +38,7 @@ export default function Home() {
           <AiFillLinkedin />
           <AiFillGithub />
           </div>
-          <div className='overflow-hidden relative bg-gradient-to-b from-pribg to-tetbg rounded-full w-80 h-80 mt-20 mx-auto'>
+          <div className='overflow-hidden relative bg-gradient-to-b from-pribg to-tetbg rounded-full w-80 h-80 mt-20 mx-auto md:h-96 md:w-96'>
             <Image src={deved} layout='fill' objectFit='cover'/>
           </div>
         </section>
@@ -60,7 +60,7 @@ export default function Home() {
               programming and teaching.
             </p>
           </div>
-          <div>
+          <div className='lg:flex gap-10'>
           <div className="text-center shadow-lg p-10 rounded-xl my-10 border border-sectxt hover:shadow-[-7px_7px_0px_#FFD739]">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
@@ -109,24 +109,24 @@ export default function Home() {
               programming and teaching.
             </p>
           </div>
-          <div>
-            <div>
-               <Image src={web1} />
+          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+            <div className='basis-1/3 flex-1'>
+               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
             </div>
-            <div>
-               <Image src={web1} />
+            <div className='basis-1/3 flex-1'>
+               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
             </div>
-            <div>
-               <Image src={web1} />
+            <div className='basis-1/3 flex-1'>
+               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
             </div>
-            <div>
-               <Image src={web1} />
+            <div className='basis-1/3 flex-1'>
+               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
             </div>
-            <div>
-               <Image src={web1} />
+            <div className='basis-1/3 flex-1'>
+               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
             </div>
-            <div>
-               <Image src={web1} />
+            <div className='basis-1/3 flex-1'>
+               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
             </div>
           </div>
         </section>
