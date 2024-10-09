@@ -8,19 +8,19 @@ import Image from 'next/image';
 import deved from '../public/dev-ed-wave.png'
 import design from '../public/design.png'
 import code from '../public/code.png'
-import consulting from '../public/consulting.png'
+import web1 from '../public/web1.png'
 
 
 export default function Home() {
   return (
   
-      <main className="bg-white px-10">
+      <main className="bg-white px-10 md:px-20 lg:px-40 ">
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-pribg text-xl font-burtons'>developedByChrstphr</h1>
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill className='cursor-pointer text-2xl' />
+                <BsFillMoonStarsFill className='cursor-pointer text-2xl text-pribg' />
                 </li>
               <li className='bg-gradient-to-r from-pribg to-tetbg text-white px-4 py-2 rounded-md ml-8  border-sectxt shadow-[-7px_7px_0px_#FFD739]'>
                 <a href="#">Resume</a>
@@ -28,8 +28,8 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-pribg font-medium'>Anigbo Somto</h2>
-            <h3 className='text-2xl py-2'>Developer an Designer</h3>
+            <h2 className='text-5xl py-2 text-pribg font-medium md:text-6xl'>Anigbo Somto</h2>
+            <h3 className='text-2xl py-2 md:text-3xl text-pribg'>Not Your Regular Developer</h3>
             <p className='text-md py-5 leading-8 text-pribg'>Freelancer providing services for programming and design content
             needs. Join me down below and let's get cracking!</p>
           </div>
@@ -108,6 +108,26 @@ export default function Home() {
               I offer from a wide range of services, including brand design,
               programming and teaching.
             </p>
+          </div>
+          <div>
+            <div>
+               <Image src={web1} />
+            </div>
+            <div>
+               <Image src={web1} />
+            </div>
+            <div>
+               <Image src={web1} />
+            </div>
+            <div>
+               <Image src={web1} />
+            </div>
+            <div>
+               <Image src={web1} />
+            </div>
+            <div>
+               <Image src={web1} />
+            </div>
           </div>
         </section>
       </main>
