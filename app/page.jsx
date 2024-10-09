@@ -1,3 +1,4 @@
+'use client'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {
   AiFillTwitterCircle,
@@ -9,12 +10,15 @@ import deved from '../public/dev-ed-wave.png'
 import design from '../public/design.png'
 import code from '../public/code.png'
 import web1 from '../public/web1.png'
+import { useState } from "react";
 
 
 export default function Home() {
+  const [darkMode, setDarkMode] = useState(false)
   return (
   
-      <main className="bg-white px-10 md:px-20 lg:px-40 ">
+     <div className={darkMode ? "dark" : ""}>
+       <main className="bg-white px-10 md:px-20 lg:px-40 ">
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-pribg text-xl font-burtons'>developedByChrstphr</h1>
@@ -24,7 +28,7 @@ export default function Home() {
                 </li>
               <li className='bg-gradient-to-r from-pribg to-tetbg text-white px-4 py-2 rounded-md ml-8  border-sectxt shadow-[-7px_7px_0px_#FFD739]'>
                 <a href="#">Resume</a>
-                </li>
+                </li> useStat
             </ul>
           </nav>
           <div className='text-center p-10'>
@@ -131,6 +135,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+     </div>
       
   );
 }
