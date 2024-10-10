@@ -14,23 +14,35 @@ import { useState } from "react";
 
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
   
      <div className={darkMode ? "dark" : ""}>
-       <main className="bg-white px-10 md:px-20 lg:px-40 ">
+       <main className="bg-white px-10 md:px-10 lg:px-20 dark:bg-gray-900">
         <section className='min-h-screen'>
-          <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-pribg text-xl font-burtons'>developedByChrstphr</h1>
-            <ul className='flex items-center'>
-              <li>
-                <BsFillMoonStarsFill className='cursor-pointer text-2xl text-pribg' />
-                </li>
-              <li className='bg-gradient-to-r from-pribg to-tetbg text-white px-4 py-2 rounded-md ml-8  border-sectxt shadow-[-7px_7px_0px_#FFD739]'>
-                <a href="#">Resume</a>
-                </li> useStat
-            </ul>
-          </nav>
+        <nav className='py-10 mb-10 flex justify-between items-center'>
+  {/* Full Name for larger screens, Shortened Name for mobile */}
+  <h1 className='text-pribg text-xl font-burtons'>
+    <span className='block md:hidden'>dvByChrstphr</span> {/* Visible on mobile */}
+    <span className='hidden md:block'>developedByChrstphr</span> {/* Visible on larger screens */}
+  </h1>
+
+  <ul className='flex items-center'>
+    <li>
+      <BsFillMoonStarsFill
+        onClick={() => setDarkMode(!darkMode)}
+        className='cursor-pointer text-2xl text-pribg'
+      />
+    </li>
+    <li className='bg-gradient-to-r from-pribg to-tetbg text-white px-4 py-2 rounded-md ml-8 border-sectxt shadow-[-7px_7px_0px_#FFD739]'>
+      <a href="#">Resume</a>
+    </li>
+  </ul>
+        </nav>
+
+
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-pribg font-medium md:text-6xl'>Anigbo Somto</h2>
             <h3 className='text-2xl py-2 md:text-3xl text-pribg'>Not Your Regular Developer</h3>
@@ -42,8 +54,8 @@ export default function Home() {
           <AiFillLinkedin />
           <AiFillGithub />
           </div>
-          <div className='overflow-hidden relative bg-gradient-to-b from-pribg to-tetbg rounded-full w-80 h-80 mt-20 mx-auto md:h-96 md:w-96'>
-            <Image src={deved} layout='fill' objectFit='cover'/>
+          <div className='mb-10 overflow-hidden relative bg-gradient-to-b from-pribg to-tetbg rounded-full w-80 h-80 mt-20 mx-auto md:h-96 md:w-96'>
+            <Image src={deved} layout='fill' objectFit='cover' />
           </div>
         </section>
 
@@ -65,7 +77,7 @@ export default function Home() {
             </p>
           </div>
           <div className='lg:flex gap-10'>
-          <div className="text-center shadow-lg p-10 rounded-xl my-10 border border-sectxt hover:shadow-[-7px_7px_0px_#FFD739]">
+          <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white border border-sectxt hover:shadow-[-7px_7px_0px_#FFD739]">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
