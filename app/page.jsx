@@ -60,11 +60,11 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-pribg font-medium md:text-6xl dark:text-cyan-400'>Anigbo Somto</h2>
             <h3 className='text-2xl py-2 md:text-3xl text-pribg font-semibold dark:text-cyan-400'>Not Your Regular Developer</h3>
             <p className='text-xl font-semibold py-5 leading-8 text-pribg md:text-xl max-w-xl mx-auto dark:text-cyan-400'>Freelancer providing services for programming and design content
-            needs. Join me down below and let's get cracking!</p>
+            needs. Join me down below and let&apos;s get cracking!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-pribg dark:text-cyan-400'>
-          <a href="https://twitter.com/Chrstphr_Wlkngs"><AiFillTwitterCircle /></a>
-          <a href="https://www.linkedin.com/in/somto-anigbo-0aa229239/</div>"><AiFillLinkedin /></a>
+          <a href=""><AiFillTwitterCircle /></a>
+          <a href=""><AiFillLinkedin /></a>
           <a href="https://github.com/Chrstphr9"><AiFillGithub /></a>
           </div>
           <div className='mb-10 overflow-hidden relative bg-gradient-to-b from-pribg to-tetbg rounded-full w-80 h-80 mt-20 mx-auto md:h-96 md:w-96'>
@@ -78,7 +78,7 @@ export default function Home() {
             <h3 className='text-3xl py-1 font-semibold dark:text-cyan-400'>Services I Offer</h3>
             <p className='text-2xl py-2 leading-8 text-pribg font-semibold dark:text-cyan-400'>
             Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-secbg dark:text-cyan-400"> agencies </span>
               consulted for <span className="text-secbg dark:text-cyan-400">startups </span>
               and collaborated with talanted people to create digital products
@@ -118,7 +118,7 @@ export default function Home() {
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Let&apos;s make it a
                 reality.
               </p>
               <h4 className="py-4" >Coding Tools I Use</h4>
@@ -134,7 +134,7 @@ export default function Home() {
             <h3 className='text-3xl font-semibold py-1 dark:text-cyan-400'>Portfolio</h3>
             <p className="text-2xl font-semibold py-2 leading-8 text-pribg dark:text-cyan-400">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-secbg dark:text-cyan-400"> agencies </span>
               consulted for <span className="text-secbg dark:text-cyan-400">startups </span>
               and collaborated with talanted people to create digital products

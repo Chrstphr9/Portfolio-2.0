@@ -1,5 +1,6 @@
 // next.config.js
 module.exports = {
+    distDir: 'dist',
     webpack: (config) => {
       config.module.rules.push({
         test: /\.pdf$/,
