@@ -9,8 +9,17 @@ import Image from 'next/image';
 import deved from '../public/dev-ed-wave.png'
 import design from '../public/design.png'
 import code from '../public/code.png'
-import web1 from '../public/web1.png'
+import work1 from '../public/work1.png'
+import work2 from '../public/work2.png'
+import work3 from '../public/work3.png'
+import work4 from '../public/work4.png'
+import work5 from '../public/work5.png'
+import work6 from '../public/work6.png'
+import work7 from '../public/work7.png'
+import work8 from '../public/work8.png'
+import work9 from '../public/work9.png'
 import { useState } from "react";
+import resume from '../public/Resume.pdf'
 
 
 export default function Home() {
@@ -26,7 +35,7 @@ export default function Home() {
   {/* Full Name for larger screens, Shortened Name for mobile */}
   <h1 className='text-pribg text-xl font-burtons'>
     <span className='block md:hidden'>dvByChrstphr</span> {/* Visible on mobile */}
-    <span className='hidden md:block'>developedByChrstphr</span> {/* Visible on larger screens */}
+    <span className='hidden md:block text-3xl font-semibold'>developedByChrstphr</span> {/* Visible on larger screens */}
   </h1>
 
   <ul className='flex items-center'>
@@ -36,8 +45,10 @@ export default function Home() {
         className='cursor-pointer text-2xl text-pribg'
       />
     </li>
-    <li className='bg-gradient-to-r from-pribg to-tetbg text-white px-4 py-2 rounded-md ml-8 border-sectxt shadow-[-7px_7px_0px_#FFD739]'>
-      <a href="#">Resume</a>
+    <li className='bg-gradient-to-r from-pribg to-tetbg text-white px-4 py-2 rounded-md ml-8 border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:bg-secbg hover:border-2 hover:border-sectxt hover:text-pritxt'>
+    <a href={resume} download={resume} target="_blank" rel="noopener noreferrer">
+        Download CV
+      </a>
     </li>
   </ul>
         </nav>
@@ -62,8 +73,8 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Services I Offer</h3>
-            <p className='text-md py-2 leading-8 text-pribg'>
+            <h3 className='text-3xl py-1 font-semibold'>Services I Offer</h3>
+            <p className='text-md py-2 leading-8 text-pribg font-semibold'>
             Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
               <span className="text-secbg"> agencies </span>
@@ -76,8 +87,9 @@ export default function Home() {
               programming and teaching.
             </p>
           </div>
-          <div className='lg:flex gap-10'>
-          <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white border border-sectxt hover:shadow-[-7px_7px_0px_#FFD739]">
+
+          <div className='lg:flex gap-10 justify-center'>  
+          <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white border border-sectxt hover:shadow-[-7px_7px_0px_#FFD739]">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
@@ -92,7 +104,7 @@ export default function Home() {
               <p className="text-pribg py-1">Figma</p>
               <p className="text-pribg py-1">Indesign</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 border-sectxt hover:shadow-[-7px_7px_0px_#FFD739] flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white border border-sectxt hover:shadow-[-7px_7px_0px_#FFD739] ">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
@@ -127,22 +139,28 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
             </div>
             <div className='basis-1/3 flex-1'>
-               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
             </div>
             <div className='basis-1/3 flex-1'>
-               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
             </div>
             <div className='basis-1/3 flex-1'>
-               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
             </div>
             <div className='basis-1/3 flex-1'>
-               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
             </div>
             <div className='basis-1/3 flex-1'>
-               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work7} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+            </div>
+            <div className='basis-1/3 flex-1'>
+               <Image src={work8} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+            </div>
+            <div className='basis-1/3 flex-1'>
+               <Image src={work9} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
             </div>
           </div>
         </section>
