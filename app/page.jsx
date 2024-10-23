@@ -68,7 +68,7 @@ export default function Home() {
           <a href="https://github.com/Chrstphr9"><AiFillGithub /></a>
           </div>
           <div className='mb-10 overflow-hidden relative bg-gradient-to-b from-pribg to-tetbg rounded-full w-80 h-80 mt-20 mx-auto md:h-96 md:w-96'>
-            <Image src={deved} layout='fill' objectFit='cover' />
+            <Image src={deved} layout='fill' objectFit='cover' alt='' />
           </div>
         </section>
 
@@ -93,7 +93,7 @@ export default function Home() {
           <div className='lg:flex gap-10 justify-center'>  
           <div className="text-xl font-semibold text-center p-10 rounded-xl my-10 dark:bg-pribg  border border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:bg-secbg hover:border-2 hover:border-sectxt text-white dark:hover:text-pritxt">
               <div className='flex justify-center'>
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt='' />
               </div>
               <h3 className="font-bold text-xl pt-8 pb-2">
                 Beautiful Designs
@@ -112,7 +112,7 @@ export default function Home() {
             </div>
             <div className="text-xl font-semibold text-center p-10 rounded-xl my-10 dark:bg-pribg  border border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:bg-secbg hover:border-2 dark:hover:border-cyan hover:border-sectxt text-white dark:hover:text-pritxt">
               <div className='flex justify-center'>
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt='' />
               </div>
               <h3 className="text-lg font-bold pt-8 pb-2 ">
                 Code your dream project
@@ -147,61 +147,61 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-2 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1  <div className=" text-center p-10 rounded-xl my-10 dark:bg-white border border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:border-2 hover:border-sectxt hover:text-pritxt">'>
-               <Image src={work1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt=''/>
                <a href="https://lovely-rugelach-eb2a44.netlify.app/" className="flex justify-center items-center mt-2 hover:text-pribg hover:scale-110 transition duration-300 ease-in-out">
               <i className="text-2xl flex font-semibold font-burtons"><FaExternalLinkAlt />View Project</i>
             </a>
             </div>
             <div className='basis-1/3 flex-1  <div className=" text-center p-10 rounded-xl my-10 dark:bg-white border border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:border-2 hover:border-sectxt hover:text-pritxt">'>
-               <Image src={work2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt=''/>
                <a href="https://password-generator-lemon-nine.vercel.app/" className="flex justify-center items-center mt-2 hover:text-pribg hover:scale-110 transition duration-300 ease-in-out">
               <i className="text-2xl flex font-semibold font-burtons"><FaExternalLinkAlt />View Project</i>
             </a>
             </div>
             <div className='basis-1/3 flex-1  <div className=" text-center p-10 rounded-xl my-10 dark:bg-white border border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:border-2 hover:border-sectxt hover:text-pritxt">'>
-               <Image src={work3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt=''/>
                <a href="https://note-app-eight-orpin.vercel.app/" className="flex justify-center items-center mt-2 hover:text-pribg hover:scale-110 transition duration-300 ease-in-out">
               <i className="text-2xl flex font-semibold font-burtons"><FaExternalLinkAlt />View Project</i>
             </a>
             </div>
             <div className='basis-1/3 flex-1  <div className=" text-center p-10 rounded-xl my-10 dark:bg-white border border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:border-2 hover:border-sectxt hover:text-pritxt">'>
-               <Image src={work4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt=''/>
                <a href="https://meta-v-chrstphr9.vercel.app/" className="flex justify-center items-center mt-2 hover:text-pribg hover:scale-110 transition duration-300 ease-in-out">
               <i className="text-2xl flex font-semibold font-burtons"><FaExternalLinkAlt />View Project</i>
             </a>
             </div>
             <div className='basis-1/3 flex-1  <div className=" text-center p-10 rounded-xl my-10 dark:bg-white border border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:border-2 hover:border-sectxt hover:text-pritxt">'>
-               <Image src={work5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt=''/>
                <a href="https://chimerical-marshmallow-1e7e58.netlify.app/" className="flex justify-center items-center mt-2 hover:text-pribg hover:scale-110 transition duration-300 ease-in-out">
               <i className="text-2xl flex font-semibold font-burtons"><FaExternalLinkAlt />View Project</i>
             </a>
             </div>
             <div className='basis-1/3 flex-1  <div className=" text-center p-10 rounded-xl my-10 dark:bg-white border border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:border-2 hover:border-sectxt hover:text-pritxt">'>
-               <Image src={work6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt=''/>
                <a href="https://gregarious-mermaid-aeeb8b.netlify.app/" className="flex justify-center items-center mt-2 hover:text-pribg hover:scale-110 transition duration-300 ease-in-out">
               <i className="text-2xl flex font-semibold font-burtons"><FaExternalLinkAlt />View Project</i>
             </a>
             </div>
             <div className='basis-1/3 flex-1  <div className=" text-center p-10 rounded-xl my-10 dark:bg-white border border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:border-2 hover:border-sectxt hover:text-pritxt">'>
-               <Image src={work7} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work7} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt=''/>
                <a href="https://data-finance-snowy.vercel.app/" className="flex justify-center items-center mt-2 hover:text-pribg hover:scale-110 transition duration-300 ease-in-out">
               <i className="text-2xl flex font-semibold font-burtons"><FaExternalLinkAlt />View Project</i>
             </a>
             </div>
             <div className='basis-1/3 flex-1  <div className=" text-center p-10 rounded-xl my-10 dark:bg-white border border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:border-2 hover:border-sectxt hover:text-pritxt">'>
-               <Image src={work8} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work8} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt=''/>
                <a href="https://food-del-lyart.vercel.app/" className="flex justify-center items-center mt-2 hover:text-pribg hover:scale-110 transition duration-300 ease-in-out">
               <i className="text-2xl flex font-semibold font-burtons"><FaExternalLinkAlt />View Project</i>
             </a>
             </div>
             <div className='basis-1/3 flex-1  <div className=" text-center p-10 rounded-xl my-10 dark:bg-white border border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:border-2 hover:border-sectxt hover:text-pritxt">'>
-               <Image src={work9} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work9} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt=''/>
                <a href="https://portfolio-app-three-beta.vercel.app/" className="flex justify-center items-center mt-2 hover:text-pribg hover:scale-110 transition duration-300 ease-in-out">
               <i className="text-2xl flex font-semibold font-burtons"><FaExternalLinkAlt />View Project</i>
             </a>
             </div>
             <div className='basis-1/3 flex-1  <div className=" text-center p-10 rounded-xl my-10 dark:bg-white border border-sectxt shadow-[-7px_7px_0px_#FFD739] transform transition duration-300 hover:scale-110 hover:border-2 hover:border-sectxt hover:text-pritxt">'>
-               <Image src={work10} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+               <Image src={work10} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt=''/>
                <a href="https://extraordinary-halva-f0fcde.netlify.app/" className="flex justify-center items-center mt-2 hover:text-pribg hover:scale-110 transition duration-300 ease-in-out">
               <i className="text-2xl flex font-semibold font-burtons"><FaExternalLinkAlt />View Project</i>
             </a>
